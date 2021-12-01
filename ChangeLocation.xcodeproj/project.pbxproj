@@ -14,6 +14,7 @@
 		74E677D9275717E000124C77 /* ChangeLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E677D8275717E000124C77 /* ChangeLocationTests.swift */; };
 		74E677E3275717E000124C77 /* ChangeLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E677E2275717E000124C77 /* ChangeLocationUITests.swift */; };
 		74E677E5275717E000124C77 /* ChangeLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E677E4275717E000124C77 /* ChangeLocationUITestsLaunchTests.swift */; };
+		74E677F2275718EA00124C77 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 74E677F1275718EA00124C77 /* Location.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		74E677DE275717E000124C77 /* ChangeLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E677E2275717E000124C77 /* ChangeLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLocationUITests.swift; sourceTree = "<group>"; };
 		74E677E4275717E000124C77 /* ChangeLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74E677F1275718EA00124C77 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				74E677CA275717E000124C77 /* Assets.xcassets */,
 				74E677CF275717E000124C77 /* ChangeLocation.entitlements */,
 				74E677CC275717E000124C77 /* Preview Content */,
+				74E677F1275718EA00124C77 /* Location.gpx */,
 			);
 			path = ChangeLocation;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E677CE275717E000124C77 /* Preview Assets.xcassets in Resources */,
+				74E677F2275718EA00124C77 /* Location.gpx in Resources */,
 				74E677CB275717E000124C77 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
